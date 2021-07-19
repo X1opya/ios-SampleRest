@@ -1,0 +1,6 @@
+module Pods_SimpleRest {
+  umbrella header "Pods-SimpleRest-umbrella.h"
+
+  export *
+  module * { export * }
+}
