@@ -25,7 +25,7 @@
 		41B9A8E526A440F3008E5955 /* CharactersCollectionDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A8E426A440F3008E5955 /* CharactersCollectionDatasource.swift */; };
 		41B9A8EB26A46833008E5955 /* FullScreenImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A8EA26A46833008E5955 /* FullScreenImageVC.swift */; };
 		41B9A8EE26A5566E008E5955 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A8ED26A5566E008E5955 /* ImageLoader.swift */; };
-		41B9A8F126A694A6008E5955 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 41B9A8F026A694A6008E5955 /* Swinject */; };
+		41B9A8F126A694A6008E5955 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 41B9A8F026A694A6008E5955 /* SwiftPackageProductDependency */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B9A8F126A694A6008E5955 /* Swinject in Frameworks */,
+				41B9A8F126A694A6008E5955 /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +259,7 @@
 			);
 			name = SimpleRest;
 			packageProductDependencies = (
-				41B9A8F026A694A6008E5955 /* Swinject */,
+				41B9A8F026A694A6008E5955 /* SwiftPackageProductDependency */,
 			);
 			productName = SimpleRest;
 			productReference = 41B9A89326970CBD008E5955 /* SimpleRest.app */;
@@ -333,7 +333,7 @@
 			);
 			mainGroup = 41B9A88A26970CBC008E5955;
 			packageReferences = (
-				41B9A8EF26A694A5008E5955 /* XCRemoteSwiftPackageReference "Swinject" */,
+				41B9A8EF26A694A5008E5955 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 41B9A89426970CBD008E5955 /* Products */;
 			projectDirPath = "";
@@ -711,7 +711,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		41B9A8EF26A694A5008E5955 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+		41B9A8EF26A694A5008E5955 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject";
 			requirement = {
@@ -722,9 +722,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		41B9A8F026A694A6008E5955 /* Swinject */ = {
+		41B9A8F026A694A6008E5955 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 41B9A8EF26A694A5008E5955 /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 41B9A8EF26A694A5008E5955 /* RemoteSwiftPackageReference */;
 			productName = Swinject;
 		};
 /* End XCSwiftPackageProductDependency section */
