@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,9 +25,7 @@
 		41B9A8E526A440F3008E5955 /* CharactersCollectionDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A8E426A440F3008E5955 /* CharactersCollectionDatasource.swift */; };
 		41B9A8EB26A46833008E5955 /* FullScreenImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A8EA26A46833008E5955 /* FullScreenImageVC.swift */; };
 		41B9A8EE26A5566E008E5955 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A8ED26A5566E008E5955 /* ImageLoader.swift */; };
-		41CBE09B5F6889E8EF034BD0 /* libPods-SimpleRest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22430F645B42F8BA3FFB6E04 /* libPods-SimpleRest.a */; };
-		9DFAF2C1CF582C278B259F76 /* libPods-SimpleRestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A249CF44464E045CA52AEF03 /* libPods-SimpleRestTests.a */; };
-		DD748EDFC292608E96BCE1B6 /* libPods-SimpleRest-SimpleRestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3690711BF0732E750026F71 /* libPods-SimpleRest-SimpleRestUITests.a */; };
+		41B9A8F126A694A6008E5955 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 41B9A8F026A694A6008E5955 /* Swinject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22430F645B42F8BA3FFB6E04 /* libPods-SimpleRest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleRest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31176ABFD42ED26238D4AA70 /* Pods-SimpleRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRest.release.xcconfig"; path = "Target Support Files/Pods-SimpleRest/Pods-SimpleRest.release.xcconfig"; sourceTree = "<group>"; };
-		318D7AB5C8D08621AB991553 /* Pods-SimpleRestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRestTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleRestTests/Pods-SimpleRestTests.release.xcconfig"; sourceTree = "<group>"; };
-		3298FD1ACAD2E8D5ACC35CCA /* Pods-SimpleRest-SimpleRestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRest-SimpleRestUITests.release.xcconfig"; path = "Target Support Files/Pods-SimpleRest-SimpleRestUITests/Pods-SimpleRest-SimpleRestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		41B9A89326970CBD008E5955 /* SimpleRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B9A89626970CBD008E5955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41B9A89826970CBD008E5955 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,11 +71,6 @@
 		41B9A8E426A440F3008E5955 /* CharactersCollectionDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionDatasource.swift; sourceTree = "<group>"; };
 		41B9A8EA26A46833008E5955 /* FullScreenImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageVC.swift; sourceTree = "<group>"; };
 		41B9A8ED26A5566E008E5955 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		708EC1CB382BB7838F80D5D4 /* Pods-SimpleRest-SimpleRestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRest-SimpleRestUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleRest-SimpleRestUITests/Pods-SimpleRest-SimpleRestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8BB9B45758D17DEC9A6B5540 /* Pods-SimpleRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRest.debug.xcconfig"; path = "Target Support Files/Pods-SimpleRest/Pods-SimpleRest.debug.xcconfig"; sourceTree = "<group>"; };
-		A249CF44464E045CA52AEF03 /* libPods-SimpleRestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleRestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3690711BF0732E750026F71 /* libPods-SimpleRest-SimpleRestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleRest-SimpleRestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EABFC85E3BE9ECE7E1E75010 /* Pods-SimpleRestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRestTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleRestTests/Pods-SimpleRestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41CBE09B5F6889E8EF034BD0 /* libPods-SimpleRest.a in Frameworks */,
+				41B9A8F126A694A6008E5955 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFAF2C1CF582C278B259F76 /* libPods-SimpleRestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD748EDFC292608E96BCE1B6 /* libPods-SimpleRest-SimpleRestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,12 +230,6 @@
 		C654CB63CB0E840B518B89F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BB9B45758D17DEC9A6B5540 /* Pods-SimpleRest.debug.xcconfig */,
-				31176ABFD42ED26238D4AA70 /* Pods-SimpleRest.release.xcconfig */,
-				708EC1CB382BB7838F80D5D4 /* Pods-SimpleRest-SimpleRestUITests.debug.xcconfig */,
-				3298FD1ACAD2E8D5ACC35CCA /* Pods-SimpleRest-SimpleRestUITests.release.xcconfig */,
-				EABFC85E3BE9ECE7E1E75010 /* Pods-SimpleRestTests.debug.xcconfig */,
-				318D7AB5C8D08621AB991553 /* Pods-SimpleRestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -257,9 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				41B9A8E326A18896008E5955 /* Swinject */,
-				22430F645B42F8BA3FFB6E04 /* libPods-SimpleRest.a */,
-				A3690711BF0732E750026F71 /* libPods-SimpleRest-SimpleRestUITests.a */,
-				A249CF44464E045CA52AEF03 /* libPods-SimpleRestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,7 +249,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B9A8BD26970CBE008E5955 /* Build configuration list for PBXNativeTarget "SimpleRest" */;
 			buildPhases = (
-				A28840B1544827220AFB6C98 /* [CP] Check Pods Manifest.lock */,
 				41B9A88F26970CBD008E5955 /* Sources */,
 				41B9A89026970CBD008E5955 /* Frameworks */,
 				41B9A89126970CBD008E5955 /* Resources */,
@@ -281,6 +258,9 @@
 			dependencies = (
 			);
 			name = SimpleRest;
+			packageProductDependencies = (
+				41B9A8F026A694A6008E5955 /* Swinject */,
+			);
 			productName = SimpleRest;
 			productReference = 41B9A89326970CBD008E5955 /* SimpleRest.app */;
 			productType = "com.apple.product-type.application";
@@ -289,7 +269,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B9A8C026970CBE008E5955 /* Build configuration list for PBXNativeTarget "SimpleRestTests" */;
 			buildPhases = (
-				B8ABDD30268908BDCC8EEC48 /* [CP] Check Pods Manifest.lock */,
 				41B9A8A526970CBE008E5955 /* Sources */,
 				41B9A8A626970CBE008E5955 /* Frameworks */,
 				41B9A8A726970CBE008E5955 /* Resources */,
@@ -308,7 +287,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B9A8C326970CBE008E5955 /* Build configuration list for PBXNativeTarget "SimpleRestUITests" */;
 			buildPhases = (
-				0BFB9116159137E6342C1431 /* [CP] Check Pods Manifest.lock */,
 				41B9A8B026970CBE008E5955 /* Sources */,
 				41B9A8B126970CBE008E5955 /* Frameworks */,
 				41B9A8B226970CBE008E5955 /* Resources */,
@@ -354,6 +332,9 @@
 				Base,
 			);
 			mainGroup = 41B9A88A26970CBC008E5955;
+			packageReferences = (
+				41B9A8EF26A694A5008E5955 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 41B9A89426970CBD008E5955 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -390,75 +371,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0BFB9116159137E6342C1431 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleRest-SimpleRestUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A28840B1544827220AFB6C98 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleRest-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8ABDD30268908BDCC8EEC48 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleRestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41B9A88F26970CBD008E5955 /* Sources */ = {
@@ -643,7 +555,6 @@
 		};
 		41B9A8BE26970CBE008E5955 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BB9B45758D17DEC9A6B5540 /* Pods-SimpleRest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -662,7 +573,6 @@
 		};
 		41B9A8BF26970CBE008E5955 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31176ABFD42ED26238D4AA70 /* Pods-SimpleRest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -681,7 +591,6 @@
 		};
 		41B9A8C126970CBE008E5955 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EABFC85E3BE9ECE7E1E75010 /* Pods-SimpleRestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -703,7 +612,6 @@
 		};
 		41B9A8C226970CBE008E5955 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 318D7AB5C8D08621AB991553 /* Pods-SimpleRestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -725,7 +633,6 @@
 		};
 		41B9A8C426970CBE008E5955 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 708EC1CB382BB7838F80D5D4 /* Pods-SimpleRest-SimpleRestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -745,7 +652,6 @@
 		};
 		41B9A8C526970CBE008E5955 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3298FD1ACAD2E8D5ACC35CCA /* Pods-SimpleRest-SimpleRestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -803,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41B9A8EF26A694A5008E5955 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41B9A8F026A694A6008E5955 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41B9A8EF26A694A5008E5955 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41B9A88B26970CBC008E5955 /* Project object */;
 }

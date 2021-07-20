@@ -1,6 +1,0 @@
-module Pods_SimpleRest_SimpleRestUITests {
-  umbrella header "Pods-SimpleRest-SimpleRestUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
